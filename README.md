@@ -25,10 +25,9 @@ I love turning complex ideas into elegant solutions—whether it's crafting REST
 
 ## 🛠️ Technologies & Skills
 
-- 💻 **Languages**: Python, C++, Java
+- 💻 **Languages**: Python, C, C++, Java, SQL
 - 🧠 **Concepts**: Logical Reasoning, Dynamic Programming, Binary Logic
-- 🔐 **Security Tools**: SpiderFoot, `dig`, `whois`
-- 🧩 **Frameworks**: Express.js, MongoDB, Stripe/Razorpay
+- 🧩 **Frameworks**: Node.js, Express.js, MongoDB, Stripe/Razorpay
 - 🧮 **Patterns**: Sliding Window, Matrix Manipulation, Permutation Logic
 
 ---
