@@ -1,4 +1,4 @@
-# my-own-portfolio
+# my-own
 <h1 align="center">🎨 Yashawini Mahesh's Developer Portfolio</h1>
 
 <p align="center">
