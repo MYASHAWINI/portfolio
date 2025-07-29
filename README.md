@@ -19,8 +19,8 @@ I love turning complex ideas into elegant solutions—whether it's crafting REST
 
 ## 🖼️ Live Preview
 
-🔗 [View Portfolio](https://file:///C:/reactapp/src/index.html)
-<img width="1892" height="955" alt="{55DD9CB7-D50F-4949-AD62-ECDCCFFDDF87}" src="https://github.com/user-attachments/assets/ed3c559c-efba-4bdd-8b59-43a043236ed0" />
+🔗 [View Portfolio](https://C:/reactapp/src/index.html)
+<img width="1889" height="878" alt="{CB4DAEED-EEB8-402F-9F03-7C4A504A876B}" src="https://github.com/user-attachments/assets/e8fa0259-5c31-4409-8671-d5f72808dc4f" />
 
 ---
 
