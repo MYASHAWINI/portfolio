@@ -1,0 +1,130 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mahesh | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: white;
+    }
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    .section {
+      background: rgba(0,0,0,0.1);
+      margin: 30px 0;
+      padding: 20px;
+      border-radius: 12px;
+    }
+    .badge {
+      display: inline-block;
+      background: #ffdd57;
+      color: #000;
+      padding: 5px 12px;
+      margin: 8px;
+      border-radius: 20px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Mahesh</h1>
+    <p>Backend Developer | Logical Thinker | Ethical Hacker</p>
+
+    <div class="section">
+      <h2>🚀 Projects</h2>
+      <p>Secure subscription systems, payment workflows, API development, and more.</p>
+      <span class="badge">Stripe</span>
+      <span class="badge">Razorpay</span>
+      <span class="badge">MongoDB</span>
+    </div>
+
+    <div class="section">
+      <h2>🧠 Challenges</h2>
+      <p>Solving SkillRack puzzles, matrix manipulation, and binary logic problems.</p>
+      <span class="badge">Dynamic Programming</span>
+      <span class="badge">Sliding Window</span>
+    </div>
+
+    <div class="section">
+      <h2>🔐 Cybersecurity</h2>
+      <p>Ethical hacking tools and techniques for penetration testing and threat analysis.</p>
+      <span class="badge">SpiderFoot</span>
+      <span class="badge">dig</span>
+      <span class="badge">whois</span>
+    </div>
+
+    <div class="section">
+      <h2>📬 Contact</h2>
+      <p>Email: mahesh@example.com<br>GitHub: github.com/mahesh</p>
+    </div>
+  </div>
+</body>
+</html>
+
+<!-- Add inside <head> -->
+<style>
+  body {
+    transition: background 0.5s, color 0.5s;
+  }
+  .dark-mode {
+    background: #121212;
+    color: #f0f0f0;
+  }
+  .btn {
+    background: #ffdd57;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.2s;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .btn:hover {
+    transform: scale(1.05);
+  }
+  .section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.6s ease-in-out;
+  }
+  .section.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+</style>
+
+<!-- Add inside <body> -->
+<button onclick="toggleTheme()">🌓 Toggle Theme</button>
+<a href="https://github.com/mahesh" class="btn">GitHub</a>
+
+<!-- Add before </body> -->
+<script>
+  function toggleTheme() {
+    document.body.classList.toggle('dark-mode');
+  }
+
+  const sections = document.querySelectorAll('.section');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1 });
+
+  sections.forEach(section => observer.observe(section));
+</script>
