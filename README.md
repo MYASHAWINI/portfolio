@@ -2,7 +2,7 @@
 <h1 align="center">🎨 Yashawini Mahesh's Developer Portfolio</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/TechStack-Backend-blueviolet?style=flat-square" />
+  <img src="https://img.shields.io/badge/TechStack-Frontend-blueviolet?style=flat-square" />
   <img src="https://img.shields.io/badge/Skills-Logical%20Reasoning-orange?style=flat-square" />
   <img src="https://img.shields.io/badge/Focus-AI%20%26%20Cybersecurity-brightgreen?style=flat-square" />
 </p>
