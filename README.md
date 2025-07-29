@@ -19,7 +19,7 @@ I love turning complex ideas into elegant solutions—whether it's crafting REST
 
 ## 🖼️ Live Preview
 
-🔗 [View Portfolio](https://your-portfolio-url.com)
+🔗 [View Portfolio](file:///C:/reactapp/src/index.html)
 
 ---
 
