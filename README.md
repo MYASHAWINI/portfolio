@@ -1,4 +1,3 @@
-# my-own
 <h1 align="center">🎨 Yashawini Mahesh's Portfolio</h1>
 
 <p align="center">
