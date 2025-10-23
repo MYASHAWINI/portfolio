@@ -1,5 +1,5 @@
 # my-own
-<h1 align="center">🎨 Yashawini Mahesh's Developer Portfolio</h1>
+<h1 align="center">🎨 Yashawini Mahesh's Portfolio</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/TechStack-Frontend-blueviolet?style=flat-square" />
